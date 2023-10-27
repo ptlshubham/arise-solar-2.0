@@ -150,63 +150,63 @@
 									<a href="#demo-form"
 										class="btn btn-modern btn-primary popup-with-form font-weight-bold border-0 btn-arrow-effect-1">GET
 										A QUOTE <i class="fas fa-arrow-right ms-2"></i></a>
-										<form id="demo-form" class="white-popup-block mfp-hide">
-											<div class="row mt-2">
-												<div class="col-sm-12">
-													<h4>Let's Convert Your Idea into Reality</h4>
-													<p class="mb-4">Need help with your system, or need a question answered,
-														try us out. Declare your energy independence with Arise Solar!</p>
-												</div>
+									<form id="demo-form" class="white-popup-block mfp-hide">
+										<div class="row mt-2">
+											<div class="col-sm-12">
+												<h4>Let's Convert Your Idea into Reality</h4>
+												<p class="mb-4">Need help with your system, or need a question answered,
+													try us out. Declare your energy independence with Arise Solar!</p>
 											</div>
-	
-											<div class="row">
-												<div class="form-group col-lg-6">
-													<label class="form-label">First Name & Last Name</label>
-													<input type="text" value="" data-msg-required="Please enter your name."
-														maxlength="100" class="form-control" name="name" required>
-												</div>
-												<div class="form-group col-lg-6">
-													<label class="form-label">Your email address *</label>
-													<input type="email" value=""
-														data-msg-required="Please enter your email address."
-														data-msg-email="Please enter a valid email address." maxlength="100"
-														class="form-control" name="contact_email" required>
-												</div>
+										</div>
+
+										<div class="row">
+											<div class="form-group col-lg-6">
+												<label class="form-label">First Name & Last Name</label>
+												<input type="text" value="" data-msg-required="Please enter your name."
+													maxlength="100" class="form-control" name="name" required>
 											</div>
-											<div class="row">
-												<div class="form-group col">
-													<label class="form-label">Address</label>
-													<input type="text" value=""
-														data-msg-required="Please enter the address." maxlength="100"
-														class="form-control" name="contact_address" required>
-												</div>
+											<div class="form-group col-lg-6">
+												<label class="form-label">Your email address *</label>
+												<input type="email" value=""
+													data-msg-required="Please enter your email address."
+													data-msg-email="Please enter a valid email address." maxlength="100"
+													class="form-control" name="contact_email" required>
 											</div>
-											<div class="row">
-												<div class="form-group col">
-													<label class="form-label">Phone</label>
-													<input type="text" value=""
-														data-msg-required="Please enter the contact." maxlength="100"
-														class="form-control" name="contact_phone" required>
-												</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
+												<label class="form-label">Address</label>
+												<input type="text" value=""
+													data-msg-required="Please enter the address." maxlength="100"
+													class="form-control" name="contact_address" required>
 											</div>
-											<div class="row">
-												<div class="form-group col">
-													<label class="form-label">
-														Tell us about your project or idea</label>
-													<textarea maxlength="5000"
-														data-msg-required="Please enter your message." rows="3"
-														class="form-control" name="message" required></textarea>
-												</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
+												<label class="form-label">Phone</label>
+												<input type="text" value=""
+													data-msg-required="Please enter the contact." maxlength="100"
+													class="form-control" name="contact_phone" required>
 											</div>
-	
-											<div class="row">
-												<div class="form-group col">
-													<button class="btn btn-modern btn-primary">Submit</button>
-													
-												</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
+												<label class="form-label">
+													Tell us about your project or idea</label>
+												<textarea maxlength="5000"
+													data-msg-required="Please enter your message." rows="3"
+													class="form-control" name="message" required></textarea>
 											</div>
-	
-										</form>
+										</div>
+
+										<div class="row">
+											<div class="form-group col">
+												<button class="btn btn-modern btn-primary">Submit</button>
+
+											</div>
+										</div>
+
+									</form>
 									<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
 										data-bs-target=".header-nav-main nav">
 										<i class="fas fa-bars"></i>
@@ -353,7 +353,7 @@
 										Declare your
 										energy independence with Arise Solar!</p>
 
-									<form class="contact-form" action="contact.php" method="POST">
+									<form class="contact-form" action="assets/php/contact-form.php" method="POST">
 										<div class="contact-form-success alert alert-success d-none mt-4">
 											<strong>Success!</strong> Your message has been sent to us.
 										</div>
@@ -369,45 +369,50 @@
 													class="form-label mb-1 text-2 text-color-dark font-weight-semibold">First
 													Name & Last Name</label>
 												<input type="text" value="" data-msg-required="Please enter your name."
-													class="form-control text-3 h-auto py-2" name="name" required>
+													class="form-control text-3 h-auto py-2" name="name" id="name"
+													required placeholder="Enter Your Name*">
 											</div>
 											<div class="form-group col-lg-6">
+												<label
+													class="form-label mb-1 text-2 text-color-dark font-weight-semibold">Phone</label>
+												<input type="text" value=""
+													data-msg-required="Please enter your phone number." maxlength="100"
+													class="form-control text-3 h-auto py-2" name="number" id="number"
+													required placeholder="Phone*">
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
 												<label
 													class="form-label mb-1 text-2 text-color-dark font-weight-semibold">Your
 													Email Id</label>
 												<input type="email" value=""
 													data-msg-required="Please enter your email address."
 													data-msg-email="Please enter a valid email address."
-													class="form-control text-3 h-auto py-2" name="email" required>
+													class="form-control text-3 h-auto py-2" name="email" id="email"
+													required placeholder="Enter Your Email*">
 											</div>
 										</div>
-
 										<div class="row">
 											<div class="form-group col">
 												<label
 													class="form-label mb-1 text-2 text-color-dark font-weight-semibold">
 													Address</label>
-												<input type="text" value=""
-													data-msg-required="Please enter your address."
-													class="form-control text-3 h-auto py-2" name="address" required>
+												<textarea maxlength="5000"
+													data-msg-required="Please enter your address." rows="2"
+													class="form-control text-3 h-auto py-2" name="address" id="address"
+													required placeholder="Address"></textarea>
 											</div>
 										</div>
-
 										<div class="row">
-											<div class="form-group col-lg-6">
-												<label
-													class="form-label mb-1 text-2 text-color-dark font-weight-semibold">Phone</label>
-												<input type="text" value=""
-													data-msg-required="Please enter Monthly Usage in KWh."
-													class="form-control text-3 h-auto py-2" name="usage" required>
-											</div>
-											<div class="form-group col-lg-6">
+											<div class="form-group col">
 												<label
 													class="form-label mb-1 text-2 text-color-dark font-weight-semibold">Tell
 													us about your project or idea</label>
-												<input type="text" value=""
-													data-msg-required="Please enter Service Type."
-													class="form-control text-3 h-auto py-2" name="service" required>
+												<textarea maxlength="5000"
+													data-msg-required="Please enter your message." rows="3"
+													class="form-control text-3 h-auto py-2" name="message" id="message"
+													required placeholder="Message"></textarea>
 											</div>
 										</div>
 										<div class="row pt-2">
@@ -467,8 +472,10 @@
 				<div class="col-md-6 col-lg-2">
 					<h5 class="text-3 mb-3">FOLLOW US</h5>
 					<ul class="footer-social-icons social-icons m-0">
-						<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f text-2"></i></a></li>
-						<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram text-2"></i></a></li>
+						<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+								title="Facebook"><i class="fab fa-facebook-f text-2"></i></a></li>
+						<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank"
+								title="Instagram"><i class="fab fa-instagram text-2"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -476,7 +483,8 @@
 		<div class="footer-copyright">
 			<div class="container">
 				<div class="row py-4">
-					<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+					<div
+						class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
 						<p class="text-center text-3">© Copyright 2023. All Rights Reserved.</p>
 					</div>
 				</div>

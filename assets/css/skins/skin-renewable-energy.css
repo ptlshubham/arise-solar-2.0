@@ -2754,7 +2754,7 @@ html section.section-primary p {
 
 html section.section-primary-scale-2 {
   background-color: #007024 !important;
-  border-color: #00561c !important;
+  border-color: #ff7c00 !important;
 }
 
 html
@@ -3433,8 +3433,8 @@ html .thumb-info .thumb-info-action-icon-light i {
 }
 
 .thumb-info-ribbon:before {
-  border-right-color: #00561c;
-  border-left-color: #00561c;
+  border-right-color: #ff7c00;
+  border-left-color: #ff7c00;
 }
 
 .thumb-info.thumb-info-block-primary .thumb-info-wrapper:before {
@@ -9238,8 +9238,8 @@ html .slide-overlay.slide-overlay-gradient .slotholder:after {
 }
 
 #footer .footer-ribbon:before {
-  border-right-color: #00561c;
-  border-left-color: #00561c;
+  border-right-color: #ff7c00;
+  border-left-color: #ff7c00;
 }
 
 #footer

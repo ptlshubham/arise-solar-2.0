@@ -28,29 +28,28 @@ require './PHPMailer.php';
     $password = "";
     $database = "u768511311_arise";
 
-
-
    //  $servername = "127.0.0.1:3306";
    //  $username = "u768511311_arisesolarllc";
    //  $password = "Rumit@2210";
    //  $database = "u768511311_arise";
-   
+
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $database);
     // Check connection
     if (!$conn) {
           die("Connection failed: " . mysqli_connect_error());
+    }else{
+      echo "data successfully recorded";
     }
-    echo "Connected successfully";
-     
-    $sql = "INSERT INTO `contact` (`name`, `contact`, `email`, `address`, `message`) VALUES
-    ('$form_name', '$contact_phone', '$contact_email', '$contact_address', '$contact_message');";
-    if (mysqli_query($conn, $sql)) {
-          echo "New record created successfully";
-    } else {
-          echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-    }
-    mysqli_close($conn);
+
+   //  $sql = "INSERT INTO `contact` (`name`, `contact`, `email`, `address`, `message`) VALUES
+   //  ('$form_name', '$contact_phone', '$contact_email', '$contact_address', '$contact_message');";
+   //  if (mysqli_query($conn, $sql)) {
+   //        echo "New record created successfully";
+   //  } else {
+   //        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+   //  }
+   //  mysqli_close($conn);
     
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
@@ -96,6 +95,7 @@ require './PHPMailer.php';
                                               </tbody>
                                            </table>
                                         </div>
+                                      
                                         <div class="header" style="font-family: Open Sans, Helvetica, Tahoma, Arial, sans-serif; line-height: 22px; padding: 15px 0; margin: 0px auto; max-width: 560px;">
                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                               <tbody>

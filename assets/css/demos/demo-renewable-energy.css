@@ -94,7 +94,11 @@ p {
 		font-size: 0.7em;
 		font-style: normal;
 }
-
+@media (min-width: 300px) {
+	.custom-text-1 {
+			font-size: 180px;
+	}
+}
 @media (min-width: 992px) {
 		.custom-text-1 {
 				font-size: 180px;

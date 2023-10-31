@@ -817,7 +817,7 @@ $sizes: 50px, 100px, 150px, 200px, 250px, 300px, 350px, 400px, 450px, 500px, 550
 
 /* Page Transition */
 body {
-	&[data-plugin-page-transition] {
+	&[class="alternative-font-7"] {
 		transition: ease opacity 300ms;
 	}
 	&.page-transition-active {

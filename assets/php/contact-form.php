@@ -34,15 +34,15 @@ $mail->setFrom('sales@arisesolarllc.com', 'Contact Us');
 $mail->addAddress($contact_email, $form_name); 
 $mail->addAddress('sales@arisesolarllc.com', 'Contact Us'); 
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "u768511311_arise";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $database = "u768511311_arise";
 
-//  $servername = "127.0.0.1:3306";
-//  $username = "u768511311_arisesolarllc";
-//  $password = "Rumit@2210";
-//  $database = "u768511311_arise";
+ $servername = "127.0.0.1:3306";
+ $username = "u768511311_arisesolarllc";
+ $password = "Rumit@2210";
+ $database = "u768511311_arise";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);

@@ -234,5 +234,5 @@ jQuery('#sucessMessage').html('<h2>Thank you for filling out your information!</
 }
 ?>
 <script language="javascript">
-window.open("index.html","_self");
+window.open("https://arisesolarllc.com","_self");
 </script>

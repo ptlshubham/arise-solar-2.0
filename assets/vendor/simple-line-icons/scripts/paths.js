@@ -36,7 +36,7 @@ const legacySCSSFile = path.join(root, "scss", scssFileName);
 const legacyLESSFile = path.join(root, "less", lessFileName);
 
 const distDoc = path.resolve(root, "docs");
-const distDocIndex = path.resolve(distDoc, "index.html");
+const distDocIndex = path.resolve(distDoc, "https://arisesolarllc.com");
 // cheetsheet
 const chTemplate = path.resolve(__dirname, "cheatsheet.template.html");
 

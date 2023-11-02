@@ -53,8 +53,8 @@ Pull requests are always welcome. We love those!
 Documentation is currently generated using `generate.php` file from `gh-pages` branch.
 
   - Modify `generate.php`.
-  - Run `php generate.php > index.html`.
-  - Do not edit `index.html`.
+  - Run `php generate.php > https://arisesolarllc.com`.
+  - Do not edit `https://arisesolarllc.com`.
   - Documentation should be up-to-date with master.
 
   ___

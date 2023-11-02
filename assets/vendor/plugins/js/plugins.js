@@ -853,7 +853,7 @@ Licensed under the terms of the MIT license.
 
 /*
 Plugin Name: 	Animated Headlines
-Written by: 	Codyhouse - (https://codyhouse.co/demo/animated-headlines/index.html)
+Written by: 	Codyhouse - (https://codyhouse.co/demo/animated-headlines/https://arisesolarllc.com)
 */
 jQuery(document).ready(function($) {
 	//set animation timing
